@@ -1,0 +1,28 @@
+/* je suis un commentaire CSS */
+/* On peut selectionner les noms des balises HTML */
+/* Conséquence tous les elements de ce type seront modifiés */
+
+h2 {
+    color: red;
+}
+
+/*  On peut selectionner les balises spécifique grâce aux class en utilisant le . */
+/* Conséquence tous les elements de ce type seront modifiés */
+.txt-cl-orange{
+    color: orange;
+}
+/*  On peut selectionner les balises spécifique grâce aux class en utilisant le # */
+/* Conséquences cet element sera modifiés */
+/* On préfere laisser les iD au JavaScript */
+#ttle {
+    color: blue;
+}
+
+/* On peut selectionner plusieurs elements en les séparant par des virgules  */
+h2, txt-cl-orange{
+    font-style: italic;
+}
+
+/*  On peut selectionner les balises spécifique grâce aux class en utilisant le . */
+
+

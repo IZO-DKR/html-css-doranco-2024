@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: url(img/home-small.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.container2 {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: url(img/home-big.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* margin: 50px auto;
+    background-image: url(img/home-big.jpg);
+    background-size: cover;
+    background-position: center; */
+}
